@@ -80,7 +80,7 @@
                     <div class="noteSearchH2">
                       <h2 id="search">note検索結果イメージ(PC)</h2>
                     </div>
-                    <div class="image"><img src="./assets/images/noteimage.png" class="noteSearchImage"></div>
+                    <div class="image"><img src="./assets/images/noteimage_thum.png" class="noteSearchImage"></div>
                     <!-- 文字数により分岐 -->
                     <h3 class="noteSearchtitle" v-if="charaCount <= 52">{{ title }}</h3>
                     <h3 class="noteSearchtitle" v-else>{{ title | readMore(52, '...')}}</h3>
