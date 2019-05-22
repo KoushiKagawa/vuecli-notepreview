@@ -46,7 +46,7 @@
                     <h3 class="title" v-else>{{ title | readMore(155, '...')}}</h3>
 
                     <!-- 文字数により分岐 -->
-                    <div class="description" v-if="charaCount <= 183">{{ description }}</div>
+                    <div class="description" v-if="charaCountbody <= 183">{{ description }}</div>
                     <div class="description" v-else>{{ description | readMore(188, '...')}}</div>
           
                     <div class="card">
