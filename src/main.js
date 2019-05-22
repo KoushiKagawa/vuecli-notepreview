@@ -10,15 +10,6 @@ import '@fortawesome/fontawesome-free-webfonts/css/fa-brands.css'
 import '@fortawesome/fontawesome-free-webfonts/css/fa-regular.css'
 import '@fortawesome/fontawesome-free-webfonts/css/fa-solid.css'
 
-
-/* Google Analytics */
-import VueAnalytics from 'vue-analytics'
-
-Vue.use(VueAnalytics, {
-  id: 'UA-140693200-1'
-})
-
-
 Vue.config.productionTip = false
 
 new Vue({
