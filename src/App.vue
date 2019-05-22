@@ -3,7 +3,7 @@
     <!-- 結果 -->
       <div class="container">
         <div class="main-wrapper">
-          <h1>noteプレビュー</h1>
+          <h1>noteシュミレーター</h1>
         </div>
 
         <!-- input field -->
@@ -61,7 +61,7 @@
                     </div>
                     <div class="userInfo">
                       <div class="userInfoAvatar">
-                        <div class="userInfoImage"><img src="./assets/images/profile.jpeg"></div>
+                        <div class="userInfoImage"><img src="./assets/images/profile.jpg"></div>
                         <div class="userInfoName">noteユーザー</div>
                         <div class="userInfoTime">３時間前</div>
                       </div>
@@ -101,7 +101,7 @@
                   
                     <div class="userInfo">
                       <div class="userInfoAvatar">
-                        <div class="userInfoImage"><img src="./assets/images/profile.jpeg"></div>
+                        <div class="userInfoImage"><img src="./assets/images/profile.jpg"></div>
                         <div class="userInfoName">noteユーザー</div>
                         <div class="userInfoTime">３時間前</div>
                       </div>
@@ -116,11 +116,27 @@
 
       </div>    
 
+
+
       <div class="notePreviewAbout">
-        <h2>このサイトについて</h2>
-        <div>
-          <p>noteのタイムラインのプレビューが確認できます。<br>（2019年5月20日時点の情報です）</p>
-          <p>作った人：<a href="https://twitter.com/koushikagawa" target="_blank">@koushikagawa</a></p>
+        <div class="notePreviewAboutBody">
+          <p class="notePreviewAboutTitle">このサイトについて</p>
+          <div class="notePreviewAboutBox">
+            <div class="notePreviewAboutImg"><a href="https://note.mu/koushikagawa" target="_blank"><img src="./assets/images/profile.jpg"></a></div>
+            <div class="notePreviewAboutDescription">
+              <p>noteのタイムライン、検索結果のプレビューが確認できます。<br>（2019年5月20日時点の情報です）</p>
+              <p>作った人：<a href="https://note.mu/koushikagawa" target="_blank">@koushikagawa</a></p>
+              <p>お問い合わせは↓twitterよりDMください。</p>
+              <div class="notePreviewAboutSupport">
+                <div class="notePreviewAboutButton">
+                  <div class="notePreviewAboutButtonDev">
+                    <span class="notePreviewAboutButtonIcon"><i class="fas fa-envelope notePreviewIcon"></i></span>
+                    <span class="notePreviewAboutButtontext"><a href="https://twitter.com/koushikagawa" target="_blank">お問い合わせはDMにて</a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
