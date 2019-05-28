@@ -127,6 +127,7 @@
             <div class="notePreviewAboutDescription">
               <p>noteのタイムライン、検索結果のプレビューが確認できます。<br>（2019年5月20日時点の情報です）</p>
               <p>作った人：<a href="https://note.mu/koushikagawa" target="_blank">@koushikagawa</a></p>
+              <p>このサイトについて、より詳しく<a href="https://note.mu/koushikagawa/n/n7dd46a5e1975" target="_blank">note</a>に書いてますのでぜひご覧ください。</p>
               <p>お問い合わせは↓twitterよりDMください。</p>
               <div class="notePreviewAboutSupport">
                 <div class="notePreviewAboutButton">
