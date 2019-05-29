@@ -86,7 +86,7 @@
                     <h3 class="noteSearchtitle" v-else>{{ title | readMore(52, '...')}}</h3>
 
                     <!-- 文字数により分岐 -->
-                    <div class="noteSearchDescription" v-if="charaCount <= 74">{{ description }}</div>
+                    <div class="noteSearchDescription" v-if="charaCountbody <= 74">{{ description }}</div>
                     <div class="noteSearchDescription" v-else>{{ description | readMore(74, '...')}}</div>
                     <div class="card">
                       <div class="like">
